@@ -1,0 +1,30 @@
+{
+  "name": "bunyan-elasticsearch",
+  "version": "1.0.0",
+  "description": "Extend elasticsearch-js to log using bunyan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/petemounce/bunyan-elasticsearch.git"
+  },
+  "keywords": [
+    "bunyan",
+    "elasticsearch",
+    "log"
+  ],
+  "author": "Peter Mounce <public@neverrunwithscissors.com> (https://neverrunwithscissors.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petemounce/bunyan-elasticsearch/issues"
+  },
+  "homepage": "https://github.com/petemounce/bunyan-elasticsearch#readme",
+  "devDependencies": {
+    "jshint": "^2.8.0"
+  },
+  "dependencies": {
+    "bunyan": "^1.5.1"
+  }
+}
