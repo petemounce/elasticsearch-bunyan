@@ -1,6 +1,6 @@
 {
   "name": "elasticsearch-bunyan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extend elasticsearch-js to log using bunyan",
   "main": "index.js",
   "scripts": {
