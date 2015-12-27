@@ -16,7 +16,7 @@ https://github.com/trentm/node-bunyan#logchild
 
 ```js
 var es = require('elasticsearch');
-var BunyanLog = require('elasticsearch-bunyan');
+var BunyanLog = require('elasticsearch-bunyan').log;
 var bunyan = require('bunyan');
 var log = bunyan.createLogger({ name: 'mylogger' });
 var client = new es.Client({
@@ -29,7 +29,7 @@ var client = new es.Client({
 
 ```js
 var es = require('elasticsearch');
-var BunyanLog = require('elasticsearch-bunyan');
+var BunyanLog = require('elasticsearch-bunyan').log;
 var client = new es.Client({
   bunyan: { name: 'mylogger' },
   log: BunyanLog
